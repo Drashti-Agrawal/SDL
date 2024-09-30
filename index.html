@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Distribution System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PDF Distribution System</h1>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <label for="pdfFile">Upload PDF:</label>
+            <input type="file" id="pdfFile" name="pdfFile" accept=".pdf" required>
+            <button type="submit">Upload and Process</button>
+        </form>
+        <div id="statusMessage"></div>
+        <div id="results"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload PDF</title>
+</head>
+<body>
+    <h1>Upload PDF Attendance Report</h1>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="pdf_file" accept=".pdf" required>
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html> -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload PDF</title>
+</head>
+<body>
+    <h1>Upload PDF File</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="application/pdf" required>
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html> -->
